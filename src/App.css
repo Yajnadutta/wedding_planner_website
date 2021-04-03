@@ -1,0 +1,181 @@
+
+ 
+
+
+#modal{
+    width: 1000px;
+    height: 150px;
+}
+#user{
+    margin-left: 1100px;
+    font-size: 30px;
+    color: azure;
+}
+#login{
+    background-image: url("img/h.png");
+    background-size: 100%;
+    height: 440px;
+    margin-top: -50px;
+    display: block;
+    padding: 0 !important;
+    margin: 0;
+}
+
+
+.products {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  
+  .products img {
+    width: 100%;
+  }
+  
+  .product {
+    padding: 40px;
+  }
+  
+  button {
+    font-size: 20px;
+    padding: 10px;
+  }
+  
+  #select{
+            width: 150px;
+            margin: auto;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: bold;
+            color: whitesmoke;
+            
+            
+  }
+
+#img{
+  height: 55px;
+  margin-left: 15px;
+  margin-top: 15px;
+  width: 60px;
+
+}
+#signin_img{
+  height: 50px;
+  margin-left: 5px;
+  margin-top: 5px;
+  width: 50px;
+
+}
+.login-div {
+width:400px;
+height: 640px;
+padding: 60px 35px 35px 35px;
+border-radius: 40px;
+background: #ecf0f3;
+box-shadow: 13px 13px 20px #cbced1,
+-13px -13px 20px #ffffff;
+margin: auto;
+margin-top: 13px;
+
+
+}
+.logo {
+
+width:60px;
+height: 60px;
+border-radius: 50%;
+margin: auto;
+margin-top: -40px;
+box-shadow: 
+/* logo shadow */
+0px 0px 2px #5f5f5f,
+/* offset */
+0px 0px 0px 5px #ecf0f3,
+/*bottom right */
+8px 8px 15px #a7aaaf,
+/* top left */
+-8px -8px 15px #ffffff
+;
+}
+.title {
+text-align: center;
+font-size: 28px;
+padding-top: 24px;
+letter-spacing: 0.5px;
+font-weight: bold;
+margin-top: -20px;
+}
+.sub-title {
+text-align: center;
+font-size: 15px;
+padding-top: 7px;
+letter-spacing: 3px;
+font-weight: bold;
+
+}
+.fields {
+width: 100%;
+padding: 75px 5px 5px 5px;
+margin-top: -50px;
+
+
+}
+.fields input {
+border: none;
+outline:none;
+background: none;
+font-size: 18px;
+color: #555;
+padding:20px 10px 20px 5px;
+}
+.username, .password {
+margin-bottom: 30px;
+border-radius: 10px;
+height: 52px;
+box-shadow: inset 8px 8px 8px #cbced1,
+inset -8px -8px 8px #ffffff;
+}
+.fields svg {
+height: 22px;
+margin:-6px 10px -3px 25px;
+color:'#999999'
+}
+.signin-button {
+outline: none;
+border:none;
+cursor: pointer;
+width:100%;
+height: 50px;
+border-radius: 10px;
+font-size: 20px;
+font-weight: 700;
+font-family: 'Lato', sans-serif;
+color:#fff;
+text-align: center;
+background: #f5821f;
+box-shadow: 3px 3px 8px #b1b1b1,
+-3px -3px 8px #ffffff;
+transition: 0.5s;
+margin-top: 8px;
+}
+.signin-button:hover {
+background:#f5821f;
+}
+
+.link {
+padding-top: 20px;
+text-align: center;
+}
+.link a {
+text-decoration: none;
+color:#aaa;
+font-size: 15px;
+}
+#background_image{
+background-image: url("https://www.thestatesman.com/wp-content/uploads/2020/02/QT-O4-9.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-position: center center;
+
+
+}
+
